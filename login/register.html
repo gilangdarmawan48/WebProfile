@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Pegawai</title>
+
+	<style type="text/css">
+		body {
+			background-image: url(background.jpeg);
+		}
+	</style>
+</head>
+<body>
+	<form method="POST" action="form2.html">
+	<table>
+		<h1>Formulir Pegawai</h1>
+			<tr>
+				<td>Nama</td>
+				<td><input type="text" name="nama"></td>
+			</tr>
+			<tr>
+				<td>Nomor Pegawai</td>
+				<td><input type="nomor" name="np"></td>
+			</tr>
+			<tr>
+				<td>Alamat</td>
+				<td><textarea name="alamat" cols="30" rows="5"></textarea></td>
+			</tr>
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td><input type="radio" name="jk" value="laki">Laki-Laki<br>
+					<input type="radio" name="jk" value="per">Perempuan
+				</td>
+			</tr>
+			<tr>
+				<td>Jabatan</td>
+				<td><select>
+						<option value="TI"> Staf
+						<option value="TI"> Direktur
+						<option value="TI">	OB
+						<option value="TI"> Sekertaris
+						<option value="TK" SELECTED>BOS</option>
+					</select><br>
+				</td>
+			</tr>
+			<tr>
+				<td>Fasilitas</td>
+				<td>
+					<input type="checkbox" name="hb" value="baca">Membaca<br>
+					<input type="checkbox" name="hb" value="nonton">Menonton Film<br>
+					<input type="checkbox" name="hb" value="musik">Mendengarkan Musik<br>
+					<input type="checkbox" name="hb" value="jalan">Wisata<br>
+					<input type="checkbox" name="hb" value="baca">Olahraga<br>
+					<input type="checkbox" name="hb" value="lain">Lainnya<br><br>
+					<input type="submit" name="submit" value="Simpan">
+					<input type="reset" name="reset" value="Reset">
+				</td>
+			</tr>
+	</table>
+	</form>
+</body>
+</html>
